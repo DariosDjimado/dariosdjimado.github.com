@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <custom-favicons>favicon-16x16.png,favicon-32x32.png,favicon-512x512.png,favicon.ico</custom-favicons>
+    </variables>
+
+    <build-profile instance="blog">
+        <variables>
+            <product-web-url>https://dariosdjimado.com</product-web-url>
+            <header-logo>favicon-512x512.png</header-logo>
+            <noindex-content>true</noindex-content>
+            <offline-docs>false</offline-docs>
+            <color-preset>soft</color-preset>
+        </variables>
+    </build-profile>
+
+    <footer>
+        <social type="linkedin" href="www.linkedin.com/in/dariosdjimado">Suivez moi sur LinkedIn</social>
+        <social type="email" href="contact@dariosdjimado.com">Contactez moi par email</social>
+    </footer>
+
+</buildprofiles>
+
