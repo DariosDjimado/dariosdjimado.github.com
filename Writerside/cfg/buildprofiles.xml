@@ -10,9 +10,9 @@
         <variables>
             <product-web-url>https://dariosdjimado.com</product-web-url>
             <header-logo>favicon-512x512.png</header-logo>
-            <noindex-content>true</noindex-content>
             <offline-docs>false</offline-docs>
             <color-preset>soft</color-preset>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
 
