@@ -4,9 +4,10 @@
 
 <instance-profile id="blog"
                   name="Darios Djimado"
-                  start-page="Record-constructeur-compact-et-copie-defensive.md">
+                  start-page="Blog.topic">
 
     <toc-element topic="Blog.topic">
+        <toc-element topic="TypeScript-5-5-Les-predicats-de-type-inferes.md"/>
         <toc-element topic="Record-constructeur-compact-et-copie-defensive.md"/>
         <toc-element topic="Projections-dynamiques-avec-Spring-Data-JPA.md"/>
     </toc-element>

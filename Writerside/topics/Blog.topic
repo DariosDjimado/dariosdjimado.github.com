@@ -16,9 +16,13 @@
         </description>
 
         <spotlight>
-            <a href="Record-constructeur-compact-et-copie-defensive.md" type="learn"/>
-            <a href="Projections-dynamiques-avec-Spring-Data-JPA.md" type="development"/>
+            <a href="TypeScript-5-5-Les-predicats-de-type-inferes.md" type="development"/>
+            <a href="Record-constructeur-compact-et-copie-defensive.md" type="development"/>
         </spotlight>
+
+        <secondary>
+            <a href="Projections-dynamiques-avec-Spring-Data-JPA.md" type="development"/>
+        </secondary>
     </section-starting-page>
 
 </topic>
