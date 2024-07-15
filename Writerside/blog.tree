@@ -7,6 +7,7 @@
                   start-page="Blog.topic">
 
     <toc-element topic="Blog.topic">
+        <toc-element topic="Les-clients-REST-declaratifs-de-Spring.md"/>
         <toc-element topic="Angular-takeUntilDestroyed-eviter-les-fuites-memoires.md"/>
         <toc-element topic="TypeScript-5-5-Les-predicats-de-type-inferes.md"/>
         <toc-element topic="Record-constructeur-compact-et-copie-defensive.md"/>
