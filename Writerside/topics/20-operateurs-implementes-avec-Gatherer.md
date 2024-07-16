@@ -55,7 +55,7 @@ List<Integer> output = input.stream()
   .gather(filter(n -> n % 2 == 0))
   .toList();
     
-// ouput: [2, 4]
+// output: [2, 4]
 ```
 
 ## 3. flatMap
@@ -82,7 +82,7 @@ List<Integer> output = input.stream()
   .gather(flatMap(List::stream))
   .toList();
   
-// ouput: [1, 2, 3, 4, 5, 6]
+// output: [1, 2, 3, 4, 5, 6]
 ```
 
 ## 4. distinct
@@ -111,7 +111,7 @@ List<Integer> output = input.stream()
   .gather(distinct())
   .toList();
 
-// ouput: [1, 2, 3, 4, 5]
+// output: [1, 2, 3, 4, 5]
 ```
 
 ## 5. limit
@@ -141,7 +141,7 @@ List<Integer> output = input.stream()
   .gather(limit(3))
   .toList();
   
-// ouput: [1, 2, 3]
+// output: [1, 2, 3]
 ```
 
 ## 6. skip
@@ -171,7 +171,7 @@ Exemple d'utilisation
       .gather(skip(2))
       .toList();
 
-// ouput: [3, 4, 5]
+// output: [3, 4, 5]
 ```
 
 ## 7. takeWhile
@@ -200,7 +200,7 @@ List<Integer> output = input.stream()
   .gather(takeWhile(n -> n < 3))
   .toList();
   
-// ouput: [1, 2]
+// output: [1, 2]
 ```
 
 ## 8. dropWhile
@@ -234,7 +234,7 @@ List<Integer> output = input.stream()
   .gather(dropWhile(n -> n < 3))
   .toList();
   
-// ouput: [3, 4, 5]
+// output: [3, 4, 5]
 ```
 
 ## 9. scan
@@ -262,7 +262,7 @@ List<Integer> output = input.stream()
   .gather(scan(0, Integer::sum))
   .toList();
 
-// ouput: [1, 3, 6, 10, 15]
+// output: [1, 3, 6, 10, 15]
 ```
 
 ## 10. pairwise
@@ -292,7 +292,7 @@ List<List<Integer>> output = input.stream()
   .gather(pairwise())
   .toList();
 
-// ouput: [[1, 2], [2, 3], [3, 4], [4, 5], [5, 6]]
+// output: [[1, 2], [2, 3], [3, 4], [4, 5], [5, 6]]
 ```
 
 ## 11. Peek
@@ -357,7 +357,7 @@ List<Integer> output = input.stream()
   .gather(sorted(Comparator.<Integer>naturalOrder()))
   .toList();
 
-// ouput: [1, 2, 3, 4, 5]
+// output: [1, 2, 3, 4, 5]
 ```
 
 ## 13. reverse
@@ -390,7 +390,7 @@ List<Integer> output = input.stream()
   .gather(reverse())
   .toList();
   
-// ouput: [5, 4, 3, 2, 1]
+// output: [5, 4, 3, 2, 1]
 ```
 
 ## 14.window
@@ -429,7 +429,7 @@ List<List<Integer>> output = input.stream()
   .gather(window(2))
   .toList();
 
-// ouput: [[1, 2], [3, 4], [5]]
+// output: [[1, 2], [3, 4], [5]]
 ```
 
 ## 15. slidingWindow
@@ -468,7 +468,7 @@ List<List<Integer>> output = input.stream()
   .gather(slidingWindow(2))
   .toList();
   
-// ouput: [[1, 2], [2, 3], [3, 4], [4, 5], [5]]
+// output: [[1, 2], [2, 3], [3, 4], [4, 5], [5]]
 ```
 
 ## 16. interleave
@@ -504,7 +504,7 @@ List<Integer> output = input.stream()
   .gather(interleave(Stream.of(2, 4, 6, 8, 10)))
   .toList();
 
-// ouput: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 ## 17. concat
@@ -538,7 +538,7 @@ List<Integer> output = input.stream()
       concat(Stream.of(6, 7, 8, 9, 10), Stream.of(11, 12, 13, 14, 15)))
   .toList();
 
-// ouput: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+// output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 ```
 
 ## 18. repeat
@@ -566,7 +566,7 @@ List<Integer> output = input.stream()
   .gather(repeat(3))
   .toList();
 
-// ouput: [1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5]
+// output: [1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5]
 ```
 
 ## 19. distinctUntilChanged
@@ -596,7 +596,7 @@ List<Integer> output = input.stream()
   .gather(distinctUntilChanged())
   .toList();
 
-// ouput: [1, 2, 3, 1, 4, 5, 2]
+// output: [1, 2, 3, 1, 4, 5, 2]
 ```
 
 ## 20. groupBy
@@ -628,7 +628,7 @@ List<List<Integer>> output = input.stream()
   .gather(groupBy(i -> i % 2 == 0))
   .toList();
 
-// ouput: [[1, 3, 5, 7, 9], [2, 4, 6, 8, 10]]
+// output: [[1, 3, 5, 7, 9], [2, 4, 6, 8, 10]]
 ```
 
 ## Conclusion
